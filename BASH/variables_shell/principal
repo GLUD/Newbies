@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "Número del ID del proceso, o PID, del shell actual: $$"
+
+echo "Nombre del Archivo the actual Script: $0"
+echo "Primer  Parametro : $1"
+echo "Segundo Parametro : $2"
+
+echo "citar indivualemte dob los argumentos: $@"
+echo "Citar dob los Argumentos: $*"
+
+echo "Total Número de parametros : $#"
+
+
+#for TOKEN in $@
+#do
+#   echo $TOKEN
+#done
+ 
+echo "El estado de salida del último comando ejecutado, es decir:
+Salida del comando \$?: $?"

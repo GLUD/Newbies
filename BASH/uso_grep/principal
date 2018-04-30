@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Imprimir todas las líneas que contiene la palabra frog o combinaciones
+del de la parabla frog del texto frog.txt. Comando: grep frog frog.txt "
+
+#grep --color  frog frog.txt
+
+#echo "Imprimir todas las líneas que contiene la palabra frog del 
+#texto frog.txt. Comando: grep \<frog\> frog.txt " ##AL PARECER ESTE NO FUNCIONA
+
+echo "Imprimir todas las líneas que inician con la palabra frog del texto
+frog.txt Comando: grep ^frog frog.txt"
+
+##grep --color  ^frog frog.txt
+
+
+#grep -n 'a.*a.*a' /usr/share/dict/words 
