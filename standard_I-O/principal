@@ -1,0 +1,15 @@
+Ejercicios.
+
+1. $  grep xyz 
+
+2. $ ls -laF > filelist
+
+3. $ date >> filelist 
+
+4. $ wc -w < ../uso_grep/frog.txt
+
+4. $ wc -w << ../uso_grep/frog.txt ../uso_grep/ejercicio
+
+5. $ cat ../uso_grep/ejercicios ../uso_grep/frog.txt | wc -w
+
+6. $ wc -w <frog.txt >wordcount
