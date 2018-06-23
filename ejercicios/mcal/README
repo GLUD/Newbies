@@ -1,0 +1,27 @@
+mcal es una nueva implementacion en forma de Shell script del comando cal, con algunas variaciones.
+
+SINTAXIS:
+	$ mcal [mes] [año]
+	$ mcal -help
+
+OPCIONES:
+	-help	
+	 Muestra el uso básico del comando
+
+CARACTERISTICAS:
+El comando mantiene un control básico de errores: Número incorrecto de argumentos, mes o año incorrectamente especificados.
+Los meses pueden especificarse mediante un número entre 1 y 12 y por su nombre o abreviatura en inglés y en español
+	
+
+EJEMPLOS:
+
+
+
+
+BUGS:
+	-Aún no tiene implementada la opción -help
+
+
+AUTOR:
+  Laydi Viviana Bautista - 2018
+Entregable para curso de Mirada X :) 

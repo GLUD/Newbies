@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#####Conocer la cantidad de argumentos
+arg=$#
+mes=0
+#####Testear el primer argumento
+
+if [ $arg -gt 0 ]
+then
+	case $1 in
+	help|-help) cat README | less;; 
+	ene|enero|jan|january) mes=1;; 
+	feb|febrero) mes=2;;
+	mar|marzo) mes=3;;
+	esac
+fi
+
+echo "$mes"
+if [ $arg -eq 0 ] 
+then
+	cal   # Si no tiene argumentos se imprimer el calendario del mes actual
+elif [ $arg -eq 1 -a $mes -eq 0 ]
+then
+	if [ $1 -le 12 ]  #Un argumeno y se deduce que es el mes del presente año
+	then
+		cal $1 2018 #Aún falta definir el año actual :(
+	elif [ $1 -ge 13 ]
+	then
+		cal $1    #un argumento y se deduce que es  el año
+	else 
+		cat README | less #imprimir documentación
+	fi
+elif [ $arg -eq 1 -a $mes -gt 0 ]
+then
+	cal $mes 2018 	
+elif [ $arg -eq 2 -a $mes -eq 0 ]
+then 
+	if [ $1 -le 12 -a $2 -gt 0 ]
+	then
+		cal $1 $2
+	fi 
+elif [ $arg -eq 2 -a $mes -gt 0 ]
+then
+	cal $mes $2
+else 
+	cat README | less #No se que paso pero hay esta el manual
+fi
+
