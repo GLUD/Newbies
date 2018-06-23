@@ -1,0 +1,23 @@
+Sintaxis case:
+
+case valor in 	
+patronUno)lista de comandos 1;;
+		#Lista de comandos separados por newline o el operador
+patronDos)lista de comandos 2;;
+		#cada linea termina con ;;
+...
+patronN)Lista de comandos N;;  
+esac
+
+PATRONES:
+
+* || Coincide con cualquier cadena
+? || Coincide con cualquier caracter
+[xyz] || Uno de los caracteres de la enumeración
+[a-z] || Uno de los caracteres del rango
+\c || Coincide con c literalmente
+'cadena' || coincide con cadena literalmente
+"cadena" || coincide con cadena literalmente salvo variables de shell que se sustituyen por su valor
+patron1|patron2   || Uno cualquiera de los dos patrones. Sólo en case
+
+

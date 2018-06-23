@@ -1,0 +1,13 @@
+Las variables posicionales de la shell se utilizan para pasar opcones y argumentos a un shell script.
+
+    $ <comando> <arg1>  <arg> ...
+
+En el shell scripts estas cadenas se pueden utilizar mediante las variables:
+   -  $0 (En nombre del comando)
+   -  $1 (Arg1)
+   -  $2 (Arg2)
+
+Otras variables especiales son:
+	- $*  (Todos los argumenros en un string)
+	- $?  (Valor de retorno del último comando ejecutado)
+	- $#  (Número de argumentos)

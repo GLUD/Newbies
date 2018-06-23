@@ -1,0 +1,47 @@
+Las comprobaciones y expresiones lógicas 
+en shell scripts se realizan principalmente 
+con el comando test
+
+El comando test devuelve cero en caso de 
+evaluación a cierto y un valor distinto de 
+cero en caso de falso.
+
+Dos sintaxis alternativas:
+
+	a. test condicion
+	b. [ condicion ] #Importante los espacios en blanco
+
+--------------------------------------------------
+
+test condicion | [ condicion ]
+
+COMPROBACIONES CON FICHEROS
+-d fichero  || El fichero existe y es un directorio
+-f fichero  || El fichero existe y es un fichero ordinario
+-r fichero  || El fichero existe y tiene permiso de lectura
+-s fichero  || el fichero existe y tiene una longitud mayor de cero
+-w fichero  || el fichero existe y tiene permiso de escritura
+-x fichero  || El fichero existe y tiene permiso de ejecución
+
+COMPROCACIONES CON CADENAS
+cadena || cadena es no nula
+-n cadena || La cadena es de longitud mayor que cero
+-z cadena || La cadena es de longtud cero
+cadena1 = cadena2 || las dos cadenas son idénticas
+cadena1 != cadena2 || Las dos cadenas no son idénticas
+
+COMPROBACIONES CON ENTEROS
+
+n1 -eq n2 || n1 es igual a n2
+n1 -neq n2 || n1 no es igual a n2
+n1 -gt n2 || n1 es mayor que n2
+n1 -ge n2 || n1 es mayor o igual que n2
+n1 -lt n2 || n1 es menor que n2
+n1 -le n2 || n1 es menor o igual que n2
+
+EXPRESIONES
+
+! expr || negación
+(...)  || Agrupacion de expresiones
+e1 -a e2 || and logico
+e1 -o e2 || or logico

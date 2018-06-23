@@ -1,0 +1,11 @@
+SUSTITUCIÓN DE VARIABLES
+
+$var || Valor de la variable var, si está definida 
+
+${var} || lo mismo pero delimita el nombre de la variable cuando está inserta en una cadena mayor
+
+${var-valor} || Valor de la variable var, si está definida. Si no se usa valor y se asigna valor a var
+
+${var?mensaje} || valor de la variable var, si está definica. Si no imprime mensaje en salida de error
+
+${var+valor} || Usa valor si la variable var está definida

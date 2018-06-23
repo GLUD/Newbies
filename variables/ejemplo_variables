@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#Prueba con variables
+
+#Asignamos un valor a la variable numero y lo mostramos
+numero=13
+echo ${numero}
+
+#Usamos una variable no definida (num) con un valor por defecto (3)
+echo ${num-3}
+#Si la variables esta definida se usa su valor, mira
+echo ${numero-3}
+
+#Si la variable esta definida usamos valor. El valor de la variable no cambia
+echo ${num+valor}
+echo ${num}
+
+echo ${numero+valor}
+echo ${numero}
+
+
+#Imprimimos mensaje a salida de error si la variable no esta definida 
+echo ${number?variable no definida}

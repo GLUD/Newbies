@@ -1,0 +1,23 @@
+SINTAXIS IF:
+
+if condicion 
+	#Comando. Normalmento evaluación de expresión con el comando test
+then
+	lista de comandos 1
+[else
+	lista de comandos 2]
+fi
+
+#######################3
+
+if condicion
+        #Comando. Normalmento evaluación de expresión con el comando test
+then
+        lista de comandos 1
+[elif condicion2
+        lista de comandos 2]
+	...
+[else
+	lisa de comandos N]
+fi
+

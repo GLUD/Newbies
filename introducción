@@ -1,0 +1,8 @@
+La shell es un lenguaje de programación de alto nivel para escribir comandos nuevos o combinaciones frecuentes con base a comando preexistentes, los comandos se combinan con estructuras, las Shells más frecuentes para programación son sh y bash, siendo ksh, csh o tcsh más utilizados en uso interactivo. 
+
+Para hacer un Shell script solo utilizamod un archivo script
+- le damos permiso de ejecución con: $ chmod +x script
+- Luego podemos ejecutar y probar el script: $ bash -x script [opciones] [argumentos]
+- Luego podemos usar el script:  $ script [opciones] [argumentos]
+
+

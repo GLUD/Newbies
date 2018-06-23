@@ -1,0 +1,30 @@
+// Start of question: MatchingQ
+(Shell Script )Seleccione el comando o respuesta más adecuado para {
+=Cadena de caracteres, que al inicio de un shell script, identifica el comando que debe interpretar el script -> 
+#!
+=Valor de la variable especial que contiene el número de argumentos que se pasan a un shell script en la línea de comando. -> 
+$#
+=Valor de la variable especial que contiene el valor de retorno del último comando ejecutado. -> 
+$?
+=Comando Unix que estima el espacio en disco ocupado por un fichero o directorio -> 
+du
+=Comando Unix que filtra su entrada estándar y muestra en su salida sólo las últimas líneas del fichero de entrada. -> 
+tail
+}
+
+// Start of question: MatchingQ
+(Git) Seleccione el comando o respuesta más adecuado para {
+=Registra fichero en el índice o área de cambios -> 
+git add fichero
+=Registro de cambios del directorio de trabajo a incluir en el próximo commit. -> 
+Indice o área de cambios
+=Directorio del S.O. al que “git init" añade un repositorio de commits donde guardar y restaurar versiones. -> 
+Directorio de trabajo 
+=Extrae fichero del índice o área de cambios. -> 
+git reset fichero
+=Comando que clona un repositorio remoto identificado por su URL de acceso. -> 
+git clone
+=Fichero habitual en las versiones de un repositorio Git que describe el proyecto. -> 
+Fichero README.md
+}
+

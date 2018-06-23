@@ -1,0 +1,29 @@
+
+##Licencia
+Licencia GNU, General Public License.
+
+###Autores
+
+Este cuestionario fue realizado con la Plantilla para la creación de cuestionarios en formato GIFT para la importación desde plataformas Moodle, realizado por:
+-Carlos López Nozal (clopezno@gmail.com)
+-Alejandro Benítez Arnaiz (usto.ab91@gmail.com)
+-Alejandro Merino Varona (burgales_89@hotmail.com)
+
+#Descripción funcional:
+Permite la cración de un cuestionario GIFT para ser importado desde plataformas Moodle, trabaja en dos	idiomas, inglés y español ,incluye preguntas de tipo verdadero/falso, de emparejamiento, de respuesta corta, de selección múltiple, de palabra oculta y numéricas
+
+
+Para poder abrir el cuestionario y editarlo en LibreOffice es necesario activar marcos en LibreOffice, en Herramientas > Opciones > Seguirdad 
+
+##Exportar desde LibreOffice
+
+En la opcion Cuestionario > Exportar
+Se guarda primero la plantilla en un .odt luego, seleccionamos el formato de exportaciÃ³n UTC-8 y guardamos el archivo que serÃ¡ el que subiremos a la plataforma
+-------------------------------------------------------------------------------------------------------------
+
+Debido a un bug que tiene OpenOffice Writer, con este procesador de texto no se puede trabajar con esta 	plantilla en inglés, ya que se produce un error al cambiar el idioma, todas las demás funcionalidades	están correctamente. Mas informacion sobre el bug en este enlace: https://issues.apache.org/ooo/show_bug.cgi?id=103486
+
+Futuras funcionalidades:
+	Entre las futuras funcionalidades previstas se encuentran las preguntas incrustadas (Cloze) y la exportación a otros formatos, como el XML-Moodle.
+
+---------------------------------------------------------------------------------------------------------------
